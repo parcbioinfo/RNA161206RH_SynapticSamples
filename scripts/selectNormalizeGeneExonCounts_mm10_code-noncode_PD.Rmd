@@ -1,8 +1,8 @@
 ---
-title: "Normalization/Selection of reads and DE/DV analysis for coding and noncoding genes - RNASeq016 - HDID2/NPT"
+title: "Normalization of reads for Synaptic Samples - RNA161206RH - Naive B6"
 author: "Priscila Darakjian"
 date: "1/30/2016"
-output: github_document
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
@@ -12,7 +12,7 @@ knitr::opts_knit$set(root.dir = '/home/groups/rosalind/projects/RNA161206RH/1612
 
 ## Description
 
-This script normalizes coding and noncoding exons and genes reads from RNA-Seq, selecting those with > 1 CPM and searching for gene differential expression (DE) and differential variability (DV). Annotation for coding genes was obtained from ensembl; annotation for noncodes was obtained from the NONCODE database (based on mm10).
+This script normalizes coding exons and genes reads from RNA-Seq of 3 samples from  synaptic tissue of the brain in Mus musculus.
 
 #### Load libraries
 ```{r message=F, warning=F}
