@@ -2,7 +2,7 @@
 title: "Normalization of reads for Synaptic Samples - RNA161206RH - Naive B6"
 author: "Priscila Darakjian"
 date: "1/30/2016"
-output: html_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
