@@ -1,0 +1,4 @@
+#NOTE: I HARDCODED THE NAMES OF THE SAMPLES IN run_bedtools_coverage.sh
+#      to make sure we know the order of the columns in the read coverage result file
+#      since multiBamCov does not add a header to the file.
+bedtools multicov -S -split -bams /home/groups/rosalind/projects/RNA161206RH/161222_D00735_0165_BCAAF5ANXX/data/bams/RNA161206RH_1_S1_L001_R1_001.fastq.gz_Aligned_sorted.bam /home/groups/rosalind/projects/RNA161206RH/161222_D00735_0165_BCAAF5ANXX/data/bams/RNA161206RH_2_S2_L001_R1_001.fastq.gz_Aligned_sorted.bam /home/groups/rosalind/projects/RNA161206RH/161222_D00735_0165_BCAAF5ANXX/data/bams/RNA161206RH_6_S3_L001_R1_001.fastq.gz_Aligned_sorted.bam  -bed /home/groups/rosalind/projects/RNA161206RH/161222_D00735_0165_BCAAF5ANXX/data/mm10_reduced_non_overlapping_exons_sorted_chradd.bed > /home/groups/rosalind/projects/RNA161206RH/161222_D00735_0165_BCAAF5ANXX/data/RNA161206RH_coverage_splitoption_stranded_oppositeDirection.txt
